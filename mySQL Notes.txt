@@ -1,0 +1,45 @@
+Uses of Database...
+1, database management software: for storing database information.
+2, also for security...
+for backup and restoring...
+interacting with many softwares...
+
+Core 4 operations performed by a database system....
+CRUD (Create, Red, Update, Delete).
+
+types:
+1, Relational DB (SQL)...
+	Organises data into one or more tables.
+	Unique key identifies each row and columns.
+	Most Popular DB, eg.. mySQL, postgreSQL, mariaDB, Oracle etc.
+
+2, Non-Relational (noSQL / not just SQL)
+	Organises data in anything but a traditional table (other data structures).
+	eg: Key-value stores, Documents(JSON, XML, etc), Graphs, Flexible Table.
+	eg, mongoDB, dynamoDB, apache, cassandra, firebase etc.
+
+Tables And Keys...
+	>> Primary Key: an attribute which uniquely defines the row in the DB. eg(id).
+		Surrogate Key: a key that has no mapping or purpose to anything in the real world.
+		Natural Key: a key that has a mapping or purpose in the real world.
+		Foreign Key: an attribute that can be stored on a db table that will link us to another db table.
+			It stores the primary key of a row in another db table (for defining r/ships btw tables).
+		Composite Key: needs two atribute. it uses 2 attributes to identify variables.
+
+SQL (Structured Query Language) Basics...
+
+
+
+
+Config details...
+port: 3306
+passw: dking
+
+
+SQL Datatypes:
+1, INT
+2, DECIMAL(M,N) eg (10,4) >>> where M is total number of digit before the decimal.. then N is digit comin after the digit. 
+3, VARCHAR(l)	>>> eg (100) total number of varchar is 100
+4, BLOB		>>> stores large data eg images, files etc.
+5, DATE		>>> 'YYYY-MM-DD'
+6, TIMESTAMP`	>>> 'YYYY-MM-DD HH:MM:SS'
